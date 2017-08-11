@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_kajian"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/placeholder"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        app:cardElevation="3dp"
+        app:contentPadding="0dp"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/txt_id"
+                android:text="ID"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_typekjian"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_masjid"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_day"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_pekan"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/txt_tema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tema : "
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:textColor="#433f3f"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingLeft="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/txt_pemateri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pemateri : "
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#433f3f"
+                android:paddingLeft="4dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/txt_lat"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_lng"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_lokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lokasi : "
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#433f3f"
+                android:paddingLeft="4dp"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/txt_cp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CP : "
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#433f3f"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
